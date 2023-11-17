@@ -1,0 +1,41 @@
+:root {
+  --width: 7vw;
+  --full-height: 100vh;
+  --start: 10vh;
+}
+.invitation-sidebar {
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
+}
+
+.invitation-sidebar .solid-box {
+  background-color: #6c8f95;
+  width: var(--width);
+  height: calc(var(--width));
+}
+
+.invitation-sidebar .invitation {
+  background-color: #f7f8f9;
+  width: var(--width);
+  height: calc(90vh - var(--width));
+  /* height: calc(var(--full-height) - (var(--width))); */
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  font-family: Cabin;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+.invitation-sidebar .invitation span {
+  color: #b7caa2;
+}

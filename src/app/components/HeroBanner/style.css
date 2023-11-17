@@ -1,0 +1,8 @@
+.hero-banner {
+  position: relative;
+}
+img {
+  height: 120vh;
+  min-width: 100vw;
+  position: relative;
+}
