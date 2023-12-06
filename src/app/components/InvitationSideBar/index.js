@@ -13,3 +13,4 @@ function InvitationSidebar() {
 }
 
 export default InvitationSidebar;
+

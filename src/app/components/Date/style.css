@@ -1,0 +1,39 @@
+:root {
+  --date-box-height: 32vh;
+  --distance-left: calc(50vw - (var(--date-box-height) / 2));
+}
+
+.date-box {
+  position: absolute;
+  top: 68vh;
+  height: var(--date-box-height);
+  width: calc(4vw + var(--date-box-height));
+  background-color: rgba(255, 255, 255, 0.5);
+  left: var(--distance-left);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.day {
+  margin-top: 4vh;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  color: rgb(5, 5, 5);
+}
+.date {
+  margin-top: 1vh;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #9e9c67;
+}
+.month-year {
+  padding-top: 1vh;
+  font-weight: 400;
+  margin-top: 0.2vh;
+  letter-spacing: 0.3rem;
+  color: rgb(0, 0, 0);
+}
